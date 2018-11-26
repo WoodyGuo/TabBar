@@ -766,7 +766,7 @@ function! <SID>Win_FindOrCreate(bufName, forceEdge, isExplorer)
       setlocal noswapfile
       setlocal buftype=nofile
       setlocal bufhidden=delete
-      setlocal statusline=\ 
+      setlocal statusline=%1*\ 
       if g:Tb_VSplit == 0
         setlocal wrap
       else
